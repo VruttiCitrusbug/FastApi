@@ -1,1 +1,7 @@
 uvicorn main:app
+
+uvicorn main:app --reload
+
+http://127.0.0.1:8000/docs
+
+PUT is suitable when the entire resource needs to be updated and the client specifies the resource identifier. POST is suitable when creating a new resource and the client does not specify the resource identifier. PATCH is suitable when making partial updates to a resource.
